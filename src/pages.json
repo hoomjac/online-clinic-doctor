@@ -1,0 +1,67 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationBarTitleText": "福建省人民医院",
+        "transparentTitle": "always",
+        "overflow": "hidden"
+      }
+    },
+    {
+      "path": "pages/orders/index",
+      "style": {
+        "navigationBarTitleText": "福建省人民医院",
+        "transparentTitle": "always"
+      }
+    },
+    {
+      "path": "pages/me/index",
+      "style": {
+        "navigationBarTitleText": "福建省人民医院",
+        "transparentTitle": "always"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#2677FF",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "height": "53px",
+    "fontSize": "10px",
+    "iconWidth": "24px",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "static/tabBar/unselected_outpatient.png",
+        "selectedIconPath": "static/tabBar/selected_outpatient.png"
+      },
+      {
+        "pagePath": "pages/orders/index",
+        "text": "接诊订单",
+        "iconPath": "static/tabBar/unselected_inpatient.png",
+        "selectedIconPath": "static/tabBar/selected_inpatient.png"
+      },
+      {
+        "pagePath": "pages/me/index",
+        "text": "个人中心",
+        "iconPath": "static/tabBar/unselected_me.png",
+        "selectedIconPath": "static/tabBar/selected_me.png"
+      }
+    ]
+  }
+}
